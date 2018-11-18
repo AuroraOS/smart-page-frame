@@ -10,7 +10,6 @@
             "email": "foxi4ever@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
 		"require": {
         "php": ">=5.3.0",
 				"hassankhan/config": "^1.0",
