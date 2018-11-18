@@ -1,0 +1,11 @@
+{
+	"app.name": "SmartPage Framework",
+	"app.version" : "1.0",
+	"app.description" : "The best and easyest way to create new websites, what is using cuting edge techologies.",
+	"app.logo" : "smartpage.png",
+	"views.bootswatch.api": "https://bootswatch.com/api/4.json",
+	"views.bootswatch.version": 4,
+	"views.bootswatch.theme": "lux",
+	"server.cache.images" : "storage/cache/images",
+	"server.cache.assets" : "storage/cache/assets"
+}

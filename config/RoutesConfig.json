@@ -1,0 +1,17 @@
+{
+	"tpl.root": "app/smartpage/views",
+	"tpl.macros" : "app/smartpage/views/macros",
+	"tpl.inc": "app/smartpage/views/inc",
+	"tpl.headers" : "app/smartpage/views/headers",
+	"tpl.footers" : "app/smartpage/views/footers",
+	"tpl.modules" : "app/smartpage/views/modules",
+	"tpl.css" : "app/smartpage/views/css",
+	"tpl.admin" : "app/smartpage/admin",
+	"tpl.aos" : "app/smartpage/admin/aos-ui",
+	"assets" : "storage/assets",
+	"uploads" : "public/uploads",
+	"app.img" : "app/smartpage/assets/app/img",
+	"core.root" : "app/core",
+	"core.modules" : "app/core/modules",
+	"theme" : "app/views"
+}

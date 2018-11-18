@@ -1,0 +1,22 @@
+{
+	"app.name": "AOS Admin",
+  "app.title": "Smart Page",
+  "app.href": "dashboard/config/global",
+  "app.ico": "sidenav-icon ion ion-md-speedometer",
+	"app.logo": "App.png",
+	"app.enabled" : true,
+	"view" : {
+		"ajax": {
+      "enabled": true,
+			"live-update": true,
+      "container": "content-block",
+      "sidenav": "sidenavs-13",
+      "nav": "layout-sidenav"
+    }
+	},
+	"admin.api" : {
+		"enabled" : true,
+		"uri" : null,
+		"auth" : null
+	}
+}
