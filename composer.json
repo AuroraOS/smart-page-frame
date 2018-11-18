@@ -2,7 +2,7 @@
     "name": "auroraos/smart-page-frame",
     "description": "Smart Page Extensions for Dappur Framework.",
     "type": "library",
-		"version": "1.0.0",
+		"version": "1.0.1",
     "license": "mit",
     "authors": [
         {
