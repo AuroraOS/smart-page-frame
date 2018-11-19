@@ -42,7 +42,7 @@ class SPHelpers extends \Twig_Extension {
     if ($pre){
       echo '<'.$pre.'><code class="'.$class.'">';
 	  if($type === 'json'){
-		echo json_encode($obj);
+		echo json_encode($obj, true);
 	  } else {
       	print_r($obj);
   	  }

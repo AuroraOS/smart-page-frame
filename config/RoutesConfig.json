@@ -8,10 +8,10 @@
 	"tpl.css" : "app/smartpage/views/css",
 	"tpl.admin" : "app/smartpage/admin",
 	"tpl.aos" : "app/smartpage/admin/aos-ui",
-	"assets" : "storage/assets",
-	"uploads" : "public/uploads",
-	"app.img" : "app/smartpage/assets/app/img",
+	"dir.assets" : "storage/assets",
+	"dir.uploads" : "public/uploads",
+	"dir.theme" : "app/views",
+	"dir.app.img" : "app/smartpage/assets/app/img",
 	"core.root" : "app/core",
-	"core.modules" : "app/core/modules",
-	"theme" : "app/views"
+	"core.modules" : "app/core/modules"
 }

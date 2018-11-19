@@ -13,10 +13,5 @@
       "sidenav": "sidenavs-13",
       "nav": "layout-sidenav"
     }
-	},
-	"admin.api" : {
-		"enabled" : true,
-		"uri" : null,
-		"auth" : null
 	}
 }

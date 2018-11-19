@@ -7,5 +7,9 @@
 	"views.bootswatch.version": 4,
 	"views.bootswatch.theme": "lux",
 	"server.cache.images" : "storage/cache/images",
-	"server.cache.assets" : "storage/cache/assets"
+	"server.cache.assets" : "storage/cache/assets",
+	"api.enabled" : true,
+	"api.uri" : "http://localhost:1333",
+	"api.auth" : [],
+	"admin.enabled" : true
 }

@@ -24,19 +24,19 @@ class SPBootstrap extends Middleware
 			$modules = $this->container['conf']->get('dir.tpl.modules');
 			$admin = $this->container['conf']->get('dir.tpl.admin');
 			$headers = $this->container['conf']->get('dir.tpl.headers');
-			$this->view->getEnvironment()->getLoader()->prependPath($sp_tpls, 'sp');
-
-      $this->view->getEnvironment()->getLoader()->prependPath($sp_macros, 'macros');
-			$this->view->getEnvironment()->getLoader()->prependPath($assets, 'assets');
-			$this->view->getEnvironment()->getLoader()->prependPath($css, 'css');
-
-			$this->view->getEnvironment()->getLoader()->prependPath($modules, 'modules');
-			$this->view->getEnvironment()->getLoader()->prependPath($headers, 'headers');
-
-			$this->view->getEnvironment()->getLoader()->prependPath($admin, 'admin');
-
-			$aos = $this->container['conf']->get('dir.tpl.aos');
-			$this->view->getEnvironment()->getLoader()->prependPath($aos, 'aos');
+			// $this->view->getEnvironment()->getLoader()->prependPath($sp_tpls, 'sp');
+			//
+      // $this->view->getEnvironment()->getLoader()->prependPath($sp_macros, 'macros');
+			// $this->view->getEnvironment()->getLoader()->prependPath($assets, 'assets');
+			// $this->view->getEnvironment()->getLoader()->prependPath($css, 'css');
+			//
+			// $this->view->getEnvironment()->getLoader()->prependPath($modules, 'modules');
+			// $this->view->getEnvironment()->getLoader()->prependPath($headers, 'headers');
+			//
+			// $this->view->getEnvironment()->getLoader()->prependPath($admin, 'admin');
+			//
+			// $aos = $this->container['conf']->get('dir.tpl.aos');
+			// $this->view->getEnvironment()->getLoader()->prependPath($aos, 'aos');
 
 
 			/**
@@ -44,14 +44,18 @@ class SPBootstrap extends Middleware
 			 * @var [$this->container]
 			 */
       $this->view->getEnvironment()->addGlobal('conf', $this->conf);
-			$this->view->getEnvironment()->addGlobal('resources', $this->resources);
+			$this->view->getEnvironment()->addGlobal('admin', $this->admin);
 			$this->view->getEnvironment()->addGlobal('assets', $this->assets);
-
-			$this->view->getEnvironment()->addGlobal('css', $this->css);
+			$this->view->getEnvironment()->addGlobal('test', $this->test);
 			$this->view->getEnvironment()->addGlobal('api', $this->api);
-			$this->view->getEnvironment()->addGlobal('Money', $this->Money);
+			//$this->view->getEnvironment()->addGlobal('resources', $this->resources);
+			//$this->view->getEnvironment()->addGlobal('assets', $this->assets);
 
-			$this->view->getEnvironment()->addGlobal('AS', $this->AS);
+			//$this->view->getEnvironment()->addGlobal('css', $this->css);
+			//$this->view->getEnvironment()->addGlobal('api', $this->api);
+			//$this->view->getEnvironment()->addGlobal('Money', $this->Money);
+
+			//$this->view->getEnvironment()->addGlobal('AS', $this->AS);
 
 			/**
 			 * Add SP TwigExtionsons to the Global Enviroment
